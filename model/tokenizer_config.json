@@ -1,0 +1,88 @@
+{
+  "add_prefix_space": false,
+  "added_tokens_decoder": {
+    "151643": {
+      "content": "<|endoftext|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151644": {
+      "content": "<|im_start|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151645": {
+      "content": "<|im_end|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151646": {
+      "content": "<FAULT_ANALYSIS>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151647": {
+      "content": "<METRICS_CONTEXT>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151648": {
+      "content": "<PREDICTION>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151649": {
+      "content": "<CONFIDENCE>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "151650": {
+      "content": "<EXPLANATION>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
+    "<FAULT_ANALYSIS>",
+    "<METRICS_CONTEXT>",
+    "<PREDICTION>",
+    "<CONFIDENCE>",
+    "<EXPLANATION>"
+  ],
+  "bos_token": null,
+  "clean_up_tokenization_spaces": false,
+  "eos_token": "<|im_end|>",
+  "errors": "replace",
+  "extra_special_tokens": {},
+  "model_max_length": 32768,
+  "pad_token": "<|endoftext|>",
+  "padding_side": "right",
+  "split_special_tokens": false,
+  "tokenizer_class": "Qwen2Tokenizer",
+  "truncation_side": "right",
+  "unk_token": null
+}
